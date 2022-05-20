@@ -135,3 +135,7 @@ h1.justify-content-flex-end {
     display: flex;
     justify-content: flex-end;
 }
+
+.rooms center {
+    margin: 80px 0;
+}
