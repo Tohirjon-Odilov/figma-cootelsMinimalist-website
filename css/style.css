@@ -256,6 +256,9 @@ div.m-4 {
     header .btn {
         position: fixed;
     }
+    .m-navbar {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 768px) {
