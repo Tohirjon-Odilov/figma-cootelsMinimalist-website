@@ -1,7 +1,6 @@
 let bars = document.querySelector('#bars')
-let navbar = document.querySelector('#navbar')
-
-bars.onclick = () => {
+document.body.onclick = () => {
     navbar.classList.toggle('active')
-    console.log('salom')
+    console.log('Navbar is active')
+
 }
