@@ -130,6 +130,10 @@ ul {
     color: #192252;
 }
 
+#x {
+    display: none;
+}
+
 .hero {
     margin: 100px 0 40px;
     /* display: none; */
@@ -225,12 +229,17 @@ div.m-4 {
         width: 100%;
         /* flex-direction: column; */
     }
+    .bars {
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
     header ul {
         position: absolute;
         top: 120px;
         right: -50px;
         margin-right: -1000px;
-        display: flex;
+        /* display: flex; */
         padding: 100px;
         flex-direction: column;
         background: white;
@@ -239,7 +248,7 @@ div.m-4 {
     }
     header ul.active {
         /* top: 120px; */
-        margin-right: 10px;
+        margin-right: 0px;
     }
     header ul li a {
         font-size: 25px;
