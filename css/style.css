@@ -98,13 +98,22 @@ ul {
     margin: 0;
 }
 
-header {
-    margin: 10px 120px;
+.m-nav {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
 }
 
-header {
-    position: sticky;
+.m-navbar {
+    max-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: white;
+    padding: 10px 120px;
 }
 
 .navbar-logo {
@@ -118,7 +127,7 @@ header {
 }
 
 .hero {
-    margin: 40px 0 40px;
+    margin: 100px 0 40px;
     /* display: none; */
     min-height: 500px;
 }
@@ -200,4 +209,35 @@ div.m-4 {
     color: white;
     font-size: 25px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .m-text {
+        text-align: center;
+        font-size: 3rem;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-top: 5px;
+    }
+    p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .column {
+        display: flex;
+        flex-direction: column;
+    }
+    .f-btn {
+        display: flex;
+        justify-content: center;
+    }
+    .justify {
+        flex-direction: column;
+    }
 }
