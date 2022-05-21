@@ -12,6 +12,13 @@ bars.onclick = () => {
         // console.log('Navbar is active')
     bars.style.display = 'none'
     x.style.display = 'block'
+
+    let btn = document.createElement("button");
+
+    btn.innerHTML = 'Get Started'
+
+    btn.setAttribute('class', 'btn')
+    document.getElementById('navbar').appendChild(btn)
 }
 x.onclick = () => {
     navbar.classList.remove('active')
@@ -19,4 +26,10 @@ x.onclick = () => {
         // console.log('Navbar is active')
     x.style.display = 'none'
     bars.style.display = 'block'
+
+    function myFunction() {
+        const list = document.getElementById("navbar");
+        list.removeChild(list.lastElementChild);
+    }
+    myFunction()
 }

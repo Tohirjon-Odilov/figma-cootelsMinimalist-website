@@ -234,12 +234,15 @@ div.m-4 {
         left: 0;
         right: 0;
     }
+    .none {
+        display: none;
+    }
     header ul {
         position: absolute;
-        top: 120px;
-        right: -50px;
+        top: 70vh;
+        right: 50vh;
+        transform: translate(70vh, -50vh) !important;
         margin-right: -1000px;
-        /* display: flex; */
         padding: 100px;
         flex-direction: column;
         background: white;
@@ -247,8 +250,16 @@ div.m-4 {
         box-shadow: 0px 0px 15px 5px rgba(115, 115, 115, 0.47);
     }
     header ul.active {
-        /* top: 120px; */
-        margin-right: 0px;
+        top: 70vh;
+        right: 50vh;
+        transform: translate(70vh, -50vh) !important;
+        /*top: 120px;
+        */
+        margin: 50px;
+        -webkit-transform: translate(50vh, -50vh) !important;
+        -moz-transform: translate(50vh, -50vh) !important;
+        -ms-transform: translate(50vh, -50vh) !important;
+        -o-transform: translate(50vh, -50vh) !important;
     }
     header ul li a {
         font-size: 25px;
@@ -256,7 +267,25 @@ div.m-4 {
     header .btn {
         position: fixed;
     }
+    #x {
+        position: absolute;
+        right: 20px;
+    }
+    #bars {
+        position: absolute;
+        right: 20px;
+    }
+    .m-navbar .navbar-logo {
+        position: absolute;
+        left: 0;
+        margin: 20px;
+    }
+    .m-navbar .btn {
+        position: relative;
+        left: 0;
+    }
     .m-navbar {
+        position: absolute;
         justify-content: center;
     }
 }
