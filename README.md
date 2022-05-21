@@ -1,5 +1,5 @@
 # figma-cootelsMinimalist-website
- Homework completed successfully
+ Completed Homework
 
  ## Start 20.05.2022
 
