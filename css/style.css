@@ -42,7 +42,11 @@ a {
     color: white;
 }
 
-header .fas {
+i#bars {
+    display: none;
+}
+
+#x {
     display: none;
 }
 
@@ -128,10 +132,6 @@ ul {
     line-height: 39px;
     /* identical to box height */
     color: #192252;
-}
-
-#x {
-    display: none;
 }
 
 .hero {
@@ -220,7 +220,7 @@ div.m-4 {
 }
 
 @media (max-width:991px) {
-    header .fas {
+    i#bars {
         display: block;
     }
     header .m-navbar {
